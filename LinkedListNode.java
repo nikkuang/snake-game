@@ -1,7 +1,3 @@
-/**
- * @author Angus Hung, G00867342
- * @assignment Project 2, CIS256
- */
 /** Class that represents a node in a linked list. */
 class LinkedListNode {
 	/* A linked list node points to the previous and next nodes. */
