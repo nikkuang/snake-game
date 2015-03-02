@@ -1,8 +1,3 @@
-/**
- * @author Angus Hung, G00867342
- * @assignment Project 2, CIS256
- */
-
 import java.awt.*;
 import java.awt.event.*;
 import java.util.Enumeration;
@@ -37,12 +32,8 @@ public class SnakeGame extends Frame {
 	/** Driver main method */
 	public static void main (String [ ] args) {
 		SnakeGame world = new SnakeGame();
-
 		world.show(); // must show the window before running it
-		
 		world.run();
-
-
 	}
 	/** Constructor sets window settings and adds key listeners */
 	public SnakeGame ( ) {
@@ -182,8 +173,7 @@ public class SnakeGame extends Frame {
 		numberSquareValue++;
 	}
 
-	/** Ends the game.
-	 */
+	/** Ends the game. */
 	public void endGame(Snake player) {
 		String display;
 		if (player == playerOne) {
