@@ -45,11 +45,9 @@ class Snake {
 		if (game.canMove(np)) {
 			// erase one segment, add another
 			body.dequeue( );
-			body.enqueue (np);
-			position
-			= np;
-
-					/* Decrements lifetime. */
+			body.enqueue(np);
+			position = np;
+			/* Decrements lifetime. */
 			lifetime--;
 			if (lifetime <= 0) { // if not more life, remove one segment
 				if (body.size() == 1) {
