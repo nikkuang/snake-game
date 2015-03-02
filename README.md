@@ -1,5 +1,6 @@
 # snake-game
-Snake game.
+
+Game based off the Snake arcdade game concept from the 1970s.
 
 Here's a view of the game window:
 
