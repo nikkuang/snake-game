@@ -1,7 +1,3 @@
-/**
- * @author Angus Hung, G00867342
- * @assignment Project 2, CIS256
- */
 /** Interface for Queue. */
 interface Queue {
 	/** Adds object to the queue. Adds to back of the queue. */
