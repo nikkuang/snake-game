@@ -1,8 +1,3 @@
-/**
- * @author Angus Hung, G00867342
- * @assignment Project 2, CIS256
- */
-
 import java.util.Enumeration;
 
 /** Implementation of the Enumeration interface. */
