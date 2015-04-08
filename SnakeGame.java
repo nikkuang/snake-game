@@ -32,7 +32,7 @@ public class SnakeGame extends Frame {
 	/** Driver main method */
 	public static void main (String [ ] args) {
 		SnakeGame world = new SnakeGame();
-		world.show(); // must show the window before running it
+		world.setVisible(true); // must show the window before running it
 		world.run();
 	}
 	/** Constructor sets window settings and adds key listeners */
